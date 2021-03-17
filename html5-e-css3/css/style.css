@@ -1,48 +1,184 @@
-#banner {
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto Slab', sans-serif;
+}
+
+header {
+  font-family: 'Ubuntu', sans-serif;
+  background: #000000;
+  padding: 20px 0;
+}
+
+.container-header {
+  position: relative;
+  width: 940px;
+  margin: 0 auto;
+}
+
+.logo-header {
+  height: 200px;
+}
+
+.navbar {
+  position: absolute;
+  top: 89px;
+  right: 0;
+}
+
+.navbar li {
+  display: inline;
+  margin: 0 0 0 15px;
+}
+
+.navbar a {
+  text-transform: uppercase;
+  color: #FFFFFF;
+  font-weight: bold;
+  font-size: 22px;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  color: #C78C19;
+  text-decoration: underline;
+}
+
+.cards-products {
+  width: 940px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 50px 0;
+}
+
+.cards-products li {
+  display: inline-block;
+  width: 30%;
+  vertical-align: top;
+  margin: 1.5%;
+  padding: 30px 20px;
+  border: 2px solid #000000;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.cards-products li:hover {
+  border: 1px solid #CCCCCC;
+}
+
+.cards-products li:active {
+  border-color: #CCCCCC;
+}
+
+.cards-products li:hover h2 {
+  font-size: 32px;
+}
+
+.cards-products h2 {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.product-description {
+  font-size: 18px;
+  line-height: 32px;
+}
+
+.product-price {
+  font-size: 22px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+/*-- PAGE CONTACT --*/
+
+main {
+  width: 940px;
+  margin: 0 auto;
+}
+
+form {
+  width: 480px;
+  margin: 40px auto;
+  padding: 40px;
+  border: 1px solid #CCCCCC;
+  border-radius: 10px;
+}
+
+form label, form legend {
+  display: block;
+  margin: 0 0 10px;
+  font-size: 16px;
+}
+
+textarea {
+  height: 250px;
+  resize: vertical;
+}
+
+.input-default{
+  display: block;
+  margin: 0 0 20px;
+  padding: 10px 25px;
   width: 100%;
+  background: #E9E9E9;
+  font-size: 14px;
+  border: none;
+  border-radius: 5px;
+  line-height: 24px;
 }
 
-.principal {
-  background: #CCCCCC;
-  padding: 30px;
-}
-
-.titulo-principal {
-  padding-left: 20px;
-}
-
-.titulo-centralizado {
-  text-align: center;
-}
-
-p {
-  text-align: center;
-}
-
-p #missao {
-  font-size: 20px;
-}
-
-em strong {
-  color: #FF0000;
-}
-
-.itens {
-  font-style: italic;
-}
-
-.beneficios {
+option {
   background: #FFFFFF;
+}
+
+.checkbox {
+  margin: 20px 0;
+}
+
+.btn-contact-send {
+  background: orange;
+  color: #FFFFFF;
+  font-weight: bold;
+  transition: all .4s;
+  cursor: pointer;
+}
+
+.btn-contact-send:hover{
+  background: darkorange;
+  transform: scale(1.1);
+}
+
+table {
+  width: 480px;
+  margin: 0 auto 40px;
+}
+
+thead {
+  background: #555555;
+  color: white;
+  font-weight: bold;
+}
+
+tfoot {
+  text-align: center;
+}
+
+td, th {
+  border: 1px solid #CCCCCC;
   padding: 20px;
 }
 
-ul {
-  display: inline-block;
-  vertical-align: top;
-  width: 20%;
-  margin-right: 15%;
+footer {
+  text-align: center;
+  background: url('/images/bg.jpg');
+  padding: 40px 0;
 }
 
-.imagem-beneficios {
-  width: 50%;
+.copyright {
+  color: #FFFFFF;
+  font-size: 14px;
+  margin: 15px 0 0;
 }
