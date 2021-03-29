@@ -38,17 +38,17 @@
       </div>
     </header>
 
-    <main> <!-- INICIO FORMULARIO -->
-      <form>
+    <main> <!-- CONTEUDO PRINCIPAL -->
+      <form> <!-- INICIO FORMULARIO -->
         <fieldset>
           <label for="name">Nome:</label>
           <input type="text" id="name" class="input-default" autofocus required />
 
           <label for="last_name">Sobrenome:</label>
-          <input type="text" id="last_name" class="input-default" required  placeholder="seuemail@dominio.com"/>
+          <input type="text" id="last_name" class="input-default" required />
 
           <label for="email">E-mail:</label>
-          <input type="email" id="email" class="input-default" required />
+          <input type="email" id="email" class="input-default" placeholder="seuemail@dominio.com" required />
 
           <label for="phone">Telefone:</label>
           <input type="tel" id="phone" class="input-default" required placeholder="(XX) XXXXX-XXXX" />
@@ -74,8 +74,8 @@
           <select class="input-default">
             <option value="0">Selecione uma opção</option>
             <option value="1">Manhã</option>
-            <option value="1">Tarde</option>
-            <option value="1">Noite</option>
+            <option value="2">Tarde</option>
+            <option value="3">Noite</option>
           </select>
         </fieldset>
 
@@ -84,7 +84,7 @@
         <input class="input-default btn-contact-send" type="submit" value="Enviar Formulário" />
       </form>
 
-      <table>
+      <table> <!-- INICIO TABELA -->
         <thead>
           <tr>
             <td>Dia</td>
@@ -113,8 +113,7 @@
       </table>
     </main>
 
-    <footer>
-      <!-- INICIO RODAPE -->
+    <footer> <!-- INICIO RODAPE -->
       <img src="images/logo-branco.png" alt="Logo da Barbearia Alura" />
       <p class="copyright">&copy; Barbearia Alura - 2019</p>
     </footer>

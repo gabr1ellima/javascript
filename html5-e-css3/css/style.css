@@ -94,11 +94,6 @@ header {
 
 /*-- PAGE CONTACT --*/
 
-main {
-  width: 940px;
-  margin: 0 auto;
-}
-
 form {
   width: 480px;
   margin: 40px auto;
@@ -153,7 +148,7 @@ option {
 
 table {
   width: 480px;
-  margin: 0 auto 40px;
+  margin: 0 auto;
 }
 
 thead {
@@ -181,4 +176,153 @@ footer {
   color: #FFFFFF;
   font-size: 14px;
   margin: 15px 0 0;
+}
+
+/* -- PAGINA INICIAL -- */
+
+.banner {
+  width: 100%;
+  height: 400px;
+  background: url('/images/banner.jpg')no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.title-main {
+  text-align: center;
+  font-size: 2em;
+  margin: 0 0 1em;
+  clear: left;
+}
+
+.title-main:first-letter {
+  font-weight: bold;
+}
+
+.section-main {
+  padding: 3em 0;
+  background: #FEFEFE;
+  width: 940px;
+  margin: 0 auto;
+}
+
+.section-main p {
+  margin: 0 0 1em;
+}
+
+.section-main strong {
+  font-weight: bold;
+}
+
+.section-main em {
+  font-style: italic;
+}
+
+.utensilios {
+  width: 120px;
+  float: left;
+  margin: 0 20px 20px 0;
+}
+
+.section-map {
+  padding: 3em 0;
+  background: linear-gradient(#FEFEFE, #CCCCCC);
+}
+
+.content-map {
+  width: 940px;
+  margin: 0 auto;
+}
+
+.section-map p {
+  margin: 0 0 2em;
+  text-align: center;
+}
+
+.beneficios {
+  padding: 3em 0;
+  background: #CCCCCC;
+}
+
+.content-beneficios {
+  width: 640px;
+  margin: 0 auto;
+}
+
+.list-beneficios {
+  width: 40%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.items-beneficios:before {
+  content: "⭐";
+}
+
+.items-beneficios{
+  line-height: 1.5;
+}
+
+.items-beneficios:first-child {
+  font-weight: bold;
+}
+
+.image-beneficios {
+  width: 60%;
+  opacity: 1;
+  transition: 400ms;
+  box-shadow: 10px 10px 10px 0 #000000;
+}
+
+.image-beneficios:hover {
+  opacity: .3;
+}
+
+.video {
+  width: 560px;
+  margin: 2em auto;
+}
+
+@media screen and (max-width: 480px) {
+  .container-header,
+  .section-main,
+  .section-map,
+  .section-beneficios,
+  .content-beneficios,
+  .content-map,
+  .video
+  .cards-products {
+    width: auto;
+  }
+  main {
+    padding: 10px;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  .navbar {
+    position: static;
+  }
+
+  .list-beneficios,
+  .image-beneficios {
+    width: 100%;
+  }
+
+  /* PÁGINA CONTATO */
+  form, table {
+    width: 100%;
+  }
+
+  /* PÁGINA PRODUTOS */
+  .cards-products {
+    width: auto;
+  }
+
+  .cards-products li {
+    display: block;
+    width: 100%;
+  }
 }
