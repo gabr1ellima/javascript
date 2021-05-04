@@ -80,11 +80,19 @@ label {
   margin-bottom: 0.2em;
 }
 
-form {
-  display: flex;
-  align-items:flex-end;
-  justify-content: center;
+.form-adicionar {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
   padding-bottom: 20px;
+}
+
+.bto-principal {
+  grid-column: span 2;
+}
+
+.grupo {
+  width: 100%;
 }
 
 .campo {
@@ -94,7 +102,6 @@ form {
   border: 1px solid #ccc;
   border-radius: 5px;
   padding: 0.9em;
-  width: 100%;
 }
 
 .campo-medio {
@@ -102,33 +109,26 @@ form {
   padding-right: 0.5em;
 }
 
-.grupo {
-  width: 30%;
-  display: inline-block;
-  margin-right: 0.5em;
-}
 
-button {
+
+.bto-principal {
   padding: 0.6em 2em;
+  margin-top: 10px;
   border: none;
   border-radius: 5px;
   font-size: 1.2em;
   cursor: pointer;
   color: #fff;
   background-color: #0c8cd3;
-  width: 20%;
+  width: 100%;
   display: block;
   clear: both;
 }
 
-button[disabled="disabled"],
-button:disabled {
+.bto-principal[disabled="disabled"],
+.bto-principal:disabled {
   background-color: gray;
   border-color: darkgray;
-}
-
-.adicionar-paciente {
-  margin-top: 30px;
 }
 
 .campo-invalido {
@@ -139,4 +139,24 @@ button:disabled {
   background-color: lightcoral;
   color: white;
   font-weight: bold;
+}
+
+#mensagens-erro {
+  color: coral;
+}
+
+@media (max-width: 768px) {
+  .form-adicionar {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .grupo {
+    padding: 0 0 10px 0;
+    width: 100%;
+  }
+
+  .bto-principal {
+    width: 100%;
+  }
 }
