@@ -145,6 +145,11 @@ label {
   color: coral;
 }
 
+.fadeOut {
+  opacity: 0;
+  transition: 0.5s;
+}
+
 @media (max-width: 768px) {
   .form-adicionar {
     display: flex;
