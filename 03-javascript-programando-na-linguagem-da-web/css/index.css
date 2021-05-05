@@ -91,25 +91,18 @@ label {
   grid-column: span 2;
 }
 
-.grupo {
-  width: 100%;
-}
-
 .campo {
   margin: 0;
-  padding-bottom: 1em;
+  padding: 1em;
   width: 100%;
   border: 1px solid #ccc;
   border-radius: 5px;
-  padding: 0.9em;
 }
 
 .campo-medio {
   display: inline-block;
   padding-right: 0.5em;
 }
-
-
 
 .bto-principal {
   padding: 0.6em 2em;
@@ -121,7 +114,6 @@ label {
   color: #fff;
   background-color: #0c8cd3;
   width: 100%;
-  display: block;
   clear: both;
 }
 
@@ -148,6 +140,27 @@ label {
 .fadeOut {
   opacity: 0;
   transition: 0.5s;
+}
+
+.invisivel {
+  display: none;
+}
+
+.grupo-filtro {
+  display: inline-block;
+  margin: 0 10px 10px 0;
+  width: 50%;
+}
+
+.section-filtrar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#buscar-paciente {
+  width: 50%;
 }
 
 @media (max-width: 768px) {

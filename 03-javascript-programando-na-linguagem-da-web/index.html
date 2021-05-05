@@ -23,7 +23,7 @@
             id="nome"
             name="nome"
             type="text"
-            placeholder="digite o nome do seu paciente"
+            placeholder="Digite o nome do paciente"
             class="campo"
           />
         </div>
@@ -33,7 +33,7 @@
             id="peso"
             name="peso"
             type="text"
-            placeholder="digite o peso do seu paciente"
+            placeholder="Digite o peso do paciente"
             class="campo campo-medio"
           />
         </div>
@@ -43,7 +43,7 @@
             id="altura"
             name="altura"
             type="text"
-            placeholder="digite a altura do seu paciente"
+            placeholder="Digite a altura do paciente"
             class="campo campo-medio"
           />
         </div>
@@ -52,7 +52,7 @@
           <input
             id="gordura"
             type="text"
-            placeholder="digite a porcentagem de gordura do seu paciente"
+            placeholder="Digite a porcentagem de gordura do paciente"
             class="campo campo-medio"
           />
         </div>
@@ -66,6 +66,15 @@
     <main>
       <section class="container">
         <h2>Meus pacientes</h2>
+          <div class="section-filtrar">
+            <div class="grupo-filtro">
+              <label for="filtrar-tabela">Filtrar: </label>
+              <input type="text" name="filtro" id="filtrar-tabela" class="campo campo-medio" placeholder="Digite o nome do paciente">
+            </div>
+            <button id="buscar-paciente" class="botao bto-principal">
+              Buscar Paciente
+            </button>
+          </div>
         <table>
           <thead>
             <tr>
@@ -123,5 +132,6 @@
     <script src="js/calc-imc.js"></script>
     <script src="js/form.js"></script>
     <script src="js/remover-paciente.js"></script>
+    <script src="js/filtra.js"></script>
   </body>
 </html>
