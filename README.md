@@ -18,4 +18,4 @@
 
 🔳 <img src="https://www.alura.com.br/assets/api/cursos/acessibilidade-web-front-end.svg" width="20"/> Acessibilidade web parte 1: tornando seu front-end inclusivo
 
-⬜
+⬜ <img src="https://www.alura.com.br/assets/api/cursos/acessibilidade-web-front-end-parte-2.svg" width="20"/> Acessibilidade web parte 2: Componentes acessíveis com um pouco de JavaScript
