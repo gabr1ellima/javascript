@@ -17,3 +17,9 @@
 🔳 <img src="https://www.alura.com.br/assets/api/cursos/javascript-programando-na-linguagem-web.svg" width="20"/> JavaScript: Programando na linguagem da web
 
 ⬜ <img src="https://www.alura.com.br/assets/api/cursos/acessibilidade-web-front-end.svg" width="20"/> Acessibilidade web parte 1: tornando seu front-end inclusivo
+
+## Módulo 2 - JavaScript a linguagem da Web
+
+## Módulo 3 - Front end UI
+
+## Módulo 4 - Sites interativos, itegrando o JavaScript ao Navegador
