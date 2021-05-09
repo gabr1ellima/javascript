@@ -1,6 +1,6 @@
 # Alura Formação Front-end
 
-## Módulo 1 - HTML & CSS
+## Cursos
 
 ✅ <img src="https://www.alura.com.br/assets/api/cursos/html5-css3-primeiros-passos.svg" width="20"/> HTML5 e CSS3 parte 1: A primeira página da Web
 
@@ -14,8 +14,9 @@
 
 ✅ <img src="https://www.alura.com.br/assets/api/cursos/http-fundamentos.svg" width="20"/> HTTP: Entendendo a web por baixo dos panos
 
-🔳 <img src="https://www.alura.com.br/assets/api/cursos/javascript-programando-na-linguagem-web.svg" width="20"/> JavaScript: Programando na linguagem da web
+✅ <img src="https://www.alura.com.br/assets/api/cursos/javascript-programando-na-linguagem-web.svg" width="20"/> JavaScript: Programando na linguagem da web
 
+<<<<<<< HEAD
 ⬜ <img src="https://www.alura.com.br/assets/api/cursos/acessibilidade-web-front-end.svg" width="20"/> Acessibilidade web parte 1: tornando seu front-end inclusivo
 
 ## Módulo 2 - JavaScript a linguagem da Web
@@ -23,3 +24,8 @@
 ## Módulo 3 - Front end UI
 
 ## Módulo 4 - Sites interativos, itegrando o JavaScript ao Navegador
+=======
+🔳 <img src="https://www.alura.com.br/assets/api/cursos/acessibilidade-web-front-end.svg" width="20"/> Acessibilidade web parte 1: tornando seu front-end inclusivo
+
+⬜ <img src="https://www.alura.com.br/assets/api/cursos/acessibilidade-web-front-end-parte-2.svg" width="20"/> Acessibilidade web parte 2: Componentes acessíveis com um pouco de JavaScript
+>>>>>>> b3312eb83a74c14cde4d510de7c52698473809b3
