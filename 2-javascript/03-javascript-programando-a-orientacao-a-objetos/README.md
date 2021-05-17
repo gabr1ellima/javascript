@@ -31,3 +31,10 @@
 - Get e Set
 - Melhor encapsulamento da classe
 - Protegendo atributos sensíveis
+
+## Aula 05 - Construtores e estáticos
+
+- Construtores
+- Encapsulamento
+- Atributos "readonly"
+- Atributos estáticos
