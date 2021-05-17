@@ -14,3 +14,12 @@
 - Encapsulamento
 - Proposta de atributos privados
 - return e early return
+
+## Aula 03 - Modularizando código
+
+- Package.json
+- Modules
+- import/export
+- As vantagens de ter um código onde usamos classes e composição ao invés de tipos primitivos
+- Tipos de valor e tipos de referência
+- Alterar dinamicamente um objeto

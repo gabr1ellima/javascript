@@ -1,0 +1,12 @@
+{
+  "name": "bytebank",
+  "version": "1.0.0",
+  "description": "Projeto do bytebank para seus clientes",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Gabriel Lima <gabriellima0409@gmail.com>",
+  "license": "MIT",
+  "type": "module"
+}
