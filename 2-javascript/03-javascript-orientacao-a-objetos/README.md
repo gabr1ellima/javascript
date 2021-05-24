@@ -38,3 +38,13 @@
 - Encapsulamento
 - Atributos "readonly"
 - Atributos estáticos
+
+# JavaScript: Interfaces e Herança em Orientação a Objetos
+
+## Aula 01 - Conhecendo o problema do cliente
+
+- Relembramos conceitos de classe, propriedades
+- Boas práticas na hora de declarar atributos
+- Declarando sempre as propriedades como sendo privadas inicialmente
+- Problemas de duplicação de código
+- Problemas de código extremamente compartilhado
