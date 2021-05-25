@@ -19,3 +19,10 @@
 
 - Grid dentro de outro.
 - Calcular largura.
+
+## Aula 4 - Estilizando o cabeçalho, menu e rodapé
+
+- Centralizar conteúdo.
+- Adicionar bordas.
+- Aplicar estilo no hover do mouse.
+- Adicionar símbolo de copyright.
