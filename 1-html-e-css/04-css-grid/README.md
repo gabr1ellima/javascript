@@ -26,3 +26,8 @@
 - Adicionar bordas.
 - Aplicar estilo no hover do mouse.
 - Adicionar símbolo de copyright.
+
+## Aula 5 - Deixando o site responsivo
+
+- Utilizar media queries para deixar site responsivo.
+- Aplicar diferentes regras para diferentes telas.

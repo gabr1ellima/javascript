@@ -1,4 +1,6 @@
 .app {
+  max-width: 1375px;
+  margin: 0 auto;
   background: #f1f1f1;
   display: grid;
   font-family: Arial, Helvetica, sans-serif;
