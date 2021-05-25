@@ -14,3 +14,8 @@
 - Definir a quantidade das linhas.
 - Dizer para os elementos onde devem começar e terminar.
 - Definir espaçamento entre linhas e colunas.
+
+## Aula 3 - Estilizando a seção de populares
+
+- Grid dentro de outro.
+- Calcular largura.
