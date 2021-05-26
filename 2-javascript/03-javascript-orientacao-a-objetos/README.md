@@ -48,3 +48,14 @@
 - Declarando sempre as propriedades como sendo privadas inicialmente
 - Problemas de duplicação de código
 - Problemas de código extremamente compartilhado
+
+## Aula 02 - Herança
+
+- Especializar o código
+- Herdar propriedades e atributos
+- Sobrecarga de métodos
+- Compartilhar código de forma segura
+- Manter nosso código na linguagem do cliente
+- Evitar código muito complicado através da herança
+- Palavra-chave Super
+- Método e propriedades privadas e protegidas
