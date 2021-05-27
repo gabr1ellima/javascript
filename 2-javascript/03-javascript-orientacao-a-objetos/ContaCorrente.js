@@ -9,7 +9,7 @@ export class ContaCorrente extends Conta {
 
   // Sobreescrevendo o comportamento de sacar
   sacar(valor) {
-    let taxa = 1.1;
+    const taxa = 1.1;
     return this._sacar(valor, taxa);
   }
 }

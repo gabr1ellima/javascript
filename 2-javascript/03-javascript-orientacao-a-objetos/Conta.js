@@ -1,9 +1,18 @@
+// Classe abstrata
+// Nunca pode ser instânciada
+// Só deve ser herdada
 export class Conta {
   constructor(saldoInicial, cliente, agencia) {
+
+    if(this.constructor == Conta){
+      throw new Error('Você não deveria instânciar um objeto do tipo Conta diretamente');
+    }
+
     // #saldo = 0; https://github.com/tc39/proposal-class-fields#private-fields
     this._saldo = saldoInicial;
     this._cliente = cliente;
     this._agencia = agencia;
+
   }
 
   set cliente(novoValor) {
@@ -20,9 +29,9 @@ export class Conta {
     return this._saldo;
   }
 
+  // Método abstrato
   sacar(valor) {
-    let taxa = 1;
-    return this._sacar(valor, taxa);
+    throw new Error("O método Sacar da conta é abstrato");
   }
 
   _sacar(valor, taxa) {
@@ -36,9 +45,6 @@ export class Conta {
   }
 
   depositar(valor) {
-    if(valor <= 100){
-      return; // Early return
-    }
     this._saldo += valor;
   }
 
