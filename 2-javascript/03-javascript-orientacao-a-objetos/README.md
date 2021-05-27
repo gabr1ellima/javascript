@@ -75,3 +75,11 @@
 - Polimorfismo
 - Métodos estáticos
 - Maneiras de tratar objetos de diferentes tipos de maneira parecida
+
+## Aula 05 - Interfaces e Duck Type
+
+- Operador in
+- Operador instanceOf
+- Como proteger nossos sistemas
+- interfaces padronizadas
+- Ducky Type
