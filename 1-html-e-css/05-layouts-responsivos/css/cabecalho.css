@@ -1,5 +1,5 @@
 .header {
-  color: #fff;
+  color: var(--branco);
   width: 100%;
   box-sizing: border-box;
   display: flex;
@@ -7,7 +7,7 @@
   align-items: center;
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
-  border-bottom: 1px solid #103d4a;
+  border-bottom: 1px solid var(--borda-cabecalho-mobile);
   position: absolute;
 }
 
