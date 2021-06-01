@@ -12,3 +12,9 @@
 - Conceitos de mobile-first;
 - O initial-scale dentro do conteúdo do Viewport;
 - Variáveis CSS;
+
+## Aula 03 - Particularidades de talas
+
+- Unidades de viewport;
+- Diferença entre unidades absolutas e relativas;
+- Limitações físicas de dispositivos;
