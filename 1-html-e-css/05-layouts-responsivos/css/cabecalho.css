@@ -26,3 +26,11 @@
   margin-bottom: 1.25rem;
   margin-left: 0.7rem;
 }
+
+@media (min-width: 1024px) {
+  .header {
+    flex-direction: row;
+    justify-content: space-between;
+    border: none;
+  }
+}
