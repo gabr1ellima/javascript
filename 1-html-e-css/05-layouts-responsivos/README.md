@@ -18,3 +18,9 @@
 - Unidades de viewport;
 - Diferença entre unidades absolutas e relativas;
 - Limitações físicas de dispositivos;
+
+## Aula 04 - Trabalhando a semântica HTML
+
+- Como lidar com as imagens do layout que recebemos;
+- Tags e atributos que têm mais função de semântica do que estilo;
+- A importância de escrever um código semântico;
