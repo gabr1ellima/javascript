@@ -11,3 +11,9 @@
 - Utilizar data-attributes
 - Utilizar o método addEventListner para escutar eventos no elemento
 - Prevenir o comportamento padrão do formulário
+
+## Aula 03 - Adicionar item na lista
+
+- Utilizar template strings
+- Método appendChild
+- Criar elementos utilizando o método createElement
