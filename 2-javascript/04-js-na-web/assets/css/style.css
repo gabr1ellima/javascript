@@ -91,6 +91,12 @@ body {
   cursor: pointer;
 }
 
+.check-button:hover,
+.delete-button:hover {
+  background-color: #46494C;
+  color: #6098FF;
+}
+
 .task.done .check-button {
   background-color: #46494C;
   color: #6098FF;
@@ -110,6 +116,10 @@ body {
 }
 
 .task.done .content {
+  text-decoration: line-through;
+}
+
+.done {
   text-decoration: line-through;
 }
 

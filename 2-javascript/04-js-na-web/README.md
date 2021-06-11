@@ -14,6 +14,13 @@
 
 ## Aula 03 - Adicionar item na lista
 
-- Utilizar template strings
+- Template strings
 - Método appendChild
 - Criar elementos utilizando o método createElement
+
+## Aula 04 - Concluir tarefa
+
+- Adicionar classe CSS utilizando o método toggle
+- Atributo parentElement para subir um elemento na árvore do DOM
+- Propriedade target
+- IIFE
