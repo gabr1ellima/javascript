@@ -24,3 +24,9 @@
 - Atributo parentElement para subir um elemento na árvore do DOM
 - Propriedade target
 - IIFE
+
+## Aula 05 - Remover tarefa
+
+- import/export
+- Remover elementos do DOM com o método remove
+- Same Origin Police e CORS
