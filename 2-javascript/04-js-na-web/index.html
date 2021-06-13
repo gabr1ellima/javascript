@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -18,12 +18,14 @@
   
       <form class="form" action="">
         <input class="form-input" type="text" data-form-input>
+        <input type="datetime-local" placeholder="preencha YYYY-MM-DD" data-form-date>
         <button class="form-button" data-form-button> Novo Item </button>
       </form>
 
       <ul class="list" data-list>
       </ul>
     </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
     <script type="module" src="main.js"></script>
 </body>
 </html>

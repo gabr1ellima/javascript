@@ -30,3 +30,11 @@
 - import/export
 - Remover elementos do DOM com o método remove
 - Same Origin Police e CORS
+
+# JS na Web: Armazenando dados no navegador
+
+## Trabalhando com datas
+
+- Utilizar componente de calendário
+- Manipular datas
+- Desestruturar objetos em JavaScript
