@@ -33,8 +33,14 @@
 
 # JS na Web: Armazenando dados no navegador
 
-## Trabalhando com datas
+## Aula 01 - Trabalhando com datas
 
 - Utilizar componente de calendário
 - Manipular datas
 - Desestruturar objetos em JavaScript
+
+## Aula 02 - localStorage
+
+- Salvar dados no navegador utilizando **SessionStorage**
+- Armazenar dados sem encerrar a sessão com o **LocalStorage**
+- Transformar objetos em string utilizando JSON.stringify()

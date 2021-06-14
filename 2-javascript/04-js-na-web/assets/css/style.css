@@ -41,8 +41,7 @@ body {
 .form-input,
 .form-button {
   border: 0;
-  border-radius: 8px;
-  padding: 1rem;
+  padding: .7rem;
 }
 
 .form-input {
@@ -50,6 +49,7 @@ body {
   width: 70%;
   outline: none;
   background-color: #6098FF;
+  border-radius: 8px 0 0 8px;
   border-color: rgba(255, 255, 255, 0.1);
 }
 
@@ -57,8 +57,9 @@ body {
   background: #6098FF;
   text-transform: uppercase;
   cursor: pointer;
-  margin-left: 0.25rem;
   color: #FFFFFF;
+  width: 30%;
+  border-radius: 0 8px 8px 0;
 }
 
 .form-button:hover {
