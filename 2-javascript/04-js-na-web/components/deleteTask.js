@@ -5,6 +5,7 @@ const ButtonDelete = () => {
 
   buttonDelete.innerText = "Deletar";
   buttonDelete.addEventListener('click', deleteTask);
+  
   return buttonDelete;
 };
 

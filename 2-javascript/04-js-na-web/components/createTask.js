@@ -1,38 +1,36 @@
 import ButtonConclude from "./concludeTask.js";
 import ButtonDelete from "./deleteTask.js";
+import { loadTask } from "./loadTask.js";
 
 export const handleNewItem = (event) => {
   event.preventDefault();
-  const tasks = JSON.parse(localStorage.getItem('tasks')) || [];
-  const list = document.querySelector("[data-list]");
+  const tasks = JSON.parse(localStorage.getItem("tasks")) || [];
   const input = document.querySelector("[data-form-input]");
-  const value = input.value;
+  const valueInput = input.value;
 
   const calendar = document.querySelector("[data-form-date]");
   const date = moment(calendar.value);
+
   const dateFormated = date.format("DD/MM/YYYY");
 
   const datas = {
-    value,
-    dateFormated
+    valueInput,
+    dateFormated,
   };
 
   const tasksUpdated = [...tasks, datas];
 
-  const createdTask = Task(datas);
-
-
-  list.appendChild(createdTask);
-
   localStorage.setItem("tasks", JSON.stringify(tasksUpdated));
 
   input.value = " ";
+
+  loadTask();
 };
 
-export const Task = ({ value, dateFormated }) => {
+export const Task = ({ valueInput, dateFormated }) => {
   const task = document.createElement("li");
   task.classList.add("task");
-  const content = `<p class="content">${dateFormated} | ${value}</p>`;
+  const content = `<p class="content">${dateFormated} | ${valueInput}</p>`;
 
   task.innerHTML = content;
 

@@ -39,8 +39,19 @@
 - Manipular datas
 - Desestruturar objetos em JavaScript
 
-## Aula 02 - localStorage
+## Aula 02 - LocalStorage
 
 - Salvar dados no navegador utilizando **SessionStorage**
 - Armazenar dados sem encerrar a sessão com o **LocalStorage**
 - Transformar objetos em string utilizando JSON.stringify()
+
+## Aula 03 - Renderizando a lista
+
+- Iterar sobre os itens do **LocalStorage**
+- Utilizar o curto circuito para verificação lógica
+- Converter os itens que antes eram strings em objetos com **JSON.parse**
+
+## Aula 04 - Ordenando as tarefas
+
+- Filtrar elementos de um array
+- Ordenar elementos do LocalStorage
