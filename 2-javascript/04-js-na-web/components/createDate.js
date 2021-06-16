@@ -8,13 +8,13 @@ export const createDate = (date) => {
 
   dateTop.innerHTML = content;
 
-  tasks.forEach((task) => {
+  tasks.forEach((task, id) => {
     const day = moment(task.dateFormated, 'DD/MM/YYYY');
 
     const diff = dateMoment.diff(day);
 
     if(diff === 0) {
-      dateTop.appendChild(Task(task));
+      dateTop.appendChild(Task(task, id));
     }
   })
 
