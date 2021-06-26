@@ -11,3 +11,5 @@
   - `*` é um *quantifier* que significa *zero, uma ou mais vezes*.
 - `.` é um *meta-char* que significa *qualquer char*.
 - Com `\` podemos escapar *meta-chars*, por exemplo `\.`.
+
+## Aula 02 - Classes de caracteres
