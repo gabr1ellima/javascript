@@ -10,3 +10,9 @@
 
 - Padrão para nomear as classes de CSS;
 - Metodologia BEM;
+
+## Aula 03 - Estilização das Receitas
+
+- Organização e estrutura de arquivos .css;
+- Separação de responsabilidades;
+- a criar e manter arquivos menores;
