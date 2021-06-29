@@ -3,8 +3,8 @@
   border: none;
   border-radius: 5px;
   color: #fdfdfd;
-  padding: 1rem;
   cursor: pointer;
+  padding: 1rem;
   transition: background .4s;
 }
 
